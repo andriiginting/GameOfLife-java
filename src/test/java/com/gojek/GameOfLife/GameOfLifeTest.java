@@ -4,9 +4,9 @@ package com.gojek.GameOfLife;/*
 import org.junit.Test;
 import static org.junit.Assert.*;
 
-public class AppTest {
+public class GameOfLifeTest {
     @Test public void testAppHasAGreeting() {
-        App classUnderTest = new App();
+        GameOfLife classUnderTest = new GameOfLife();
         assertNotNull("app should have a greeting", classUnderTest.getGreeting());
     }
 }
