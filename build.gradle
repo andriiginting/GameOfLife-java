@@ -15,7 +15,7 @@ plugins {
 }
 
 // Define the main class for the application
-mainClassName = 'App'
+mainClassName = 'com.gojek.GojekGol.GameOfLife'
 
 dependencies {
     // This dependency is found on compile classpath of this component and consumers.
@@ -41,5 +41,10 @@ allprojects {
             showStandardStreams true
             events = ["passed", "skipped", "failed", "standardError"]
         }
+    }
+}
+run {
+    if (project.hasProperty("appArgs")) {
+        args Eval.me(appArgs)
     }
 }

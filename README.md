@@ -18,7 +18,7 @@ Build Instructions:
 ./gradlew build
 
 Run Instructions: 
-./gradlew run
+./gradlew run -PappArgs="['filename.txt']"
 
 Test Instructions: 
 ./gradlew clean test
