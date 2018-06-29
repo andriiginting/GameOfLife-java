@@ -1,5 +1,6 @@
-Project Name: GojekGol
-Project Description: 
+# GojekGol
+
+## Description:
 "The universe of the Game of Life is an infinite, two-dimensional orthogonal grid of square cells, each of which is in one of two possible states, alive or dead, (or populated and unpopulated, respectively). Every cell interacts with its eight neighbours, which are the cells that are horizontally, vertically, or diagonally adjacent. At each step in time, the following transitions occur:
 
   - Any live cell with fewer than two live neighbors dies, as if by under population.
@@ -9,17 +10,23 @@ Project Description:
 
  The initial pattern constitutes the seed of the system. The first generation is created by applying the above rules simultaneously to every cell in the seed; births and deaths occur simultaneously, and the discrete moment at which this happens is sometimes called a tick. Each generation is a pure function of the preceding one. The rules continue to be applied repeatedly to create further generations."
 
-Dev Env Setup: 
-" - intellij
+## Dev Env Setup:
+"- intellij
   - Java 10 SDK
   - gradle 4.8.1"
 
-Build Instructions: 
+## Build Instructions:
+...
 ./gradlew build
+...
 
-Run Instructions: 
+## Run Instructions:
+...
 ./gradlew run -PappArgs="['filename.txt']"
+...
 
-Test Instructions: 
+## Test Instructions:
+...
 ./gradlew clean test
+...
 
