@@ -16,17 +16,17 @@
   - gradle 4.8.1"
 
 ## Build Instructions:
-...
+```
 ./gradlew build
-...
+```
 
 ## Run Instructions:
-...
+```
 ./gradlew run -PappArgs="['filename.txt']"
-...
+```
 
 ## Test Instructions:
-...
+```
 ./gradlew clean test
-...
+```
 
