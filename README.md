@@ -11,9 +11,9 @@
  The initial pattern constitutes the seed of the system. The first generation is created by applying the above rules simultaneously to every cell in the seed; births and deaths occur simultaneously, and the discrete moment at which this happens is sometimes called a tick. Each generation is a pure function of the preceding one. The rules continue to be applied repeatedly to create further generations."
 
 ## Dev Env Setup:
-"- intellij
+  - intellij
   - Java 10 SDK
-  - gradle 4.8.1"
+  - gradle 4.8.1
 
 ## Build Instructions:
 ```
